@@ -1,0 +1,242 @@
+Body{
+    Background :radial-gradient(ellipse 800px 700px  at center, red, Black, cyan, transparent, Black, red, black) repeat left/contain;padding:10px;height:100vh;
+}
+.boxx{
+    border:2px White solid;
+    box-shadow:1px 1px 33px cyan;
+    Animation:4s boxx  ease infinite ;
+    font-size:34px;
+    font-weight:bolder;
+    color:black ;
+    width:50%;
+    margin:10px auto ;height:250px;
+}
+.box{
+    border:2px White solid;
+    box-shadow:1px 1px 33px cyan;
+    Animation:4s boxx ease infinite ;
+    font-size:34px;
+    font-weight:bolder;
+    color:black ;
+    width:85%;
+    margin:10px auto ;height:40%;padding:10px;border-radius:70px 70px 10px 10px;
+}
+#img{
+Width:100%;height:100%;
+    Margin:auto;overflow:scroll; background-position:center;
+}
+img{border-radius:70px 70px 0px 0px;
+    Width:100%;
+    border:2px White solid;
+    box-shadow:0px 14px 3px cyan;height:100%;
+   
+    
+
+}
+#neshr{
+    text-align:center;padding:8px;margin:7px auto;fonf-size:22px;word-spacing:3px;line-height:45px;
+}
+ button, #amir{  Text-align:center;font-family:sans-serif;height:50%;font-size:50px;
+border-radius:40px 40px ;
+  }
+  Button{border:7px red double; }
+  #amirr{  display:flex;align-items:flex-end;font-family:sans-serif;height:flex-wrap:wrap;25px;Justify-content:center ;align-content:flex-end;width:100%;height:100%;padding :0px;line-height:130px;
+
+  }
+
+@keyframes boxx{
+    0%{
+        
+        Background :red;
+    }
+    50%{border-radiuse:340px;
+        
+        Background:blue;
+    }
+    75%{
+        
+        Background :cyan; 
+
+    }
+    85%{
+        
+        Background :transparente ;
+        
+    }
+    75%{
+        Width:500px;
+        Background :gray;
+     
+       
+        
+
+    }100%{
+        Border:yellow dotted 7px; 
+    }
+}
+@keyframes  parentt{
+0%{
+          
+    Border:green double 7px;
+   
+       } 75%{
+            
+           
+    
+    Border:red double 7px;
+  
+       
+       }
+   100%{
+        Border:yellow dotted 7px; 
+    }
+}
+  
+  .parentt{
+  Background:linear-gradient(to top right , red,transparent, blue )  
+  height:100vh;
+    Padding:0px ;
+    Border:white double 4px;
+    Width:100vw;
+    Flex-flow:row wrap;
+   border-radius:45px 00px 320px 320px  ; Justify-content:space-evenly ;align-content :center;
+      Animation:4s parentt ease infinite ;
+
+.parent{
+  Background:linear-gradient(to top right , red,transparent, blue )  
+  height:100%;
+    Padding:35px ;
+    Border:white double 4px;
+    Display :grid;
+    Flex-flow:row wrap;
+   border-radius:0%  50%; Justify-content:space-evenly ;align-content :center;
+      Animation:4s parentt ease infinite ;
+}
+input::placeholder{
+Color:white;font-size:1.3em;
+} 
+Input[type="submit"]{
+    Color:white;
+    font-size:22px;
+    font-weight:bolder
+    ;border:blue 4px dashed;
+    border-radius:25%;
+    Margin:44px;
+    
+
+}
+Input{Background:radial-gradient( red,black) ;
+    height:100%;border-radius:107px ;color:red;Border:blue 4px dashed; 
+} 
+Input:hover{
+   Transition:3ms;
+        Background :black;
+        width:220px;border:blue 4px dotted;
+    }
+}
+
+footer{height:0px;
+   
+}
+.togrid{
+    Display:grid;height:400px;width:100%;
+    grid-template-columns:repeat(5,1fr);
+    
+    Grid-template-rows:1fr 1fr 1fr 1fr ; 
+}
+.parent div{
+    
+
+    
+    border-radius: 130px ;
+}
+.items1{Height:45px;
+
+    }
+.items2{
+    Height:45px;
+    
+}.items3{
+
+    Height:45px;
+}
+.items4{
+
+    Height:45px;
+}
+.items5{
+
+    Height:45px;
+}
+.items6{
+    Height:45px;
+}
+.items7{
+
+    Height:45px;
+}
+.items8{
+
+    Height:45px;
+}
+.items9{
+
+    Height:45px;grid-row:4/4;grid-column:3/-1;
+}
+.items10{
+
+    Height:45px;
+}
+.items11{
+    Height:45px;
+}
+.
+. Wordd:hover{
+     Background :cyan;
+   /*Transform:matrix (scaleX() 
+      skewX() skewY scaleY translateX() translateY)
+      
+      
+      
+matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+```
+
+إليك 
+
+في هذا المثال:
+1. `scaleX(1.5)`: يكبر العرض بنسبة 1.5.
+2. `skewY(0.3)`: يميل العنصر بمحور Y بزاوية صغيرة.
+3. `skewX(0.3)`: يميل العنصر بمحور X بزاوية صغيرة.
+4. `scaleY(1.5)`: يكبر الطول بنسبة 1.5.
+5. `translateX(30)`: ينقل العنصر 30 بكسل إلى اليمين.
+6. `translateY(30)`: ينقل العنصر 30 بكسل إلى الأسفل.
+
+يمكنك تجربة الكود في متصفحك لرؤية التأثيرات المتعددة عند تحويم الماوس فوق المربع.*/
+ }
+ Input:focus{
+     Color:cyan;font-size:1.3em;
+ }
+ Input:first-line{ 
+     
+ }
+ Input:invalide{
+     
+ }
+ Input:valid{
+     
+ }
+ Input:desable{
+     
+ }
+ Input:enable{
+     
+ }
+ Input:active {
+     
+ }
+ Input::before{
+     
+ }
+.parent::after{
+     
+ }
